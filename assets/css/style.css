@@ -1,0 +1,249 @@
+body{
+    font: normal normal 1em/1.6em Arial, Helvetica, sans-serif;
+    background:#b8ecfd url("../images/hello.png") no-repeat bottom;
+    background-size: contain;
+    height: 100vh;
+}
+
+.wrapper{
+    width: 980px;
+    margin:  0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*Nav starts here------------------------------------------*/
+
+nav{
+    background-color: #b8ecfd;
+    display: block;
+    border-bottom: 1px solid #FC626B;
+    height: 74px;
+}
+
+nav h1{
+    display: block;
+    height: 50px;
+    font-size: 2em;
+    color: #FC626B;
+    float: left;
+    background: url("../images/cross.png") padding-box no-repeat left; 
+    background-size: 30px;
+    border-bottom: 4px solid #FC626B;
+/*    border: 1px solid #778bd4;*/
+    padding: 20px 40px 0 40px;
+}
+
+nav ul{
+    float: right;
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    border-right: 1px solid #FC626B;
+    height: 20px;
+}
+
+nav ul li a{
+    color: #FC626B;
+    text-decoration: none;
+}
+
+#last{
+    border: 0;
+}
+
+/*Section starts here------------------------------------------*/
+
+section, aside{
+    margin-top: 40px;
+    padding: 25px;
+}
+
+section{
+    width: 60%;
+    float: left;
+    border: 5px solid #FC626B;
+}
+
+section h2{
+    font-size: 1.8em;
+    color: #FC626B;
+    display: block;
+    border-bottom: 2px solid #FC626B;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+section p{
+    margin-bottom: 20px;
+    color: #FC626B; 
+}
+
+section img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/*Sidebar starts here------------------------------------------*/
+
+aside{
+    width: 25%;
+    float: right;
+}
+
+aside a{
+    float: left;
+    width: 33.3%;
+    height: 50px;
+    display: block;
+}
+
+.github{
+    background: url("../images/github_icon.png") padding-box no-repeat center; background-size: contain;
+}
+
+.linkedin{
+    background: url("../images/linkedin_icon9.png") padding-box no-repeat center; background-size: contain;
+}
+
+.stack{
+    background: url("../images/stackoverflow_icon.png") padding-box no-repeat center; background-size: contain;
+}
+
+aside h3{
+    font-size: 1.2em;
+    color: #FC626B;
+    display: block;
+    border-bottom: 1px solid #FC626B;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/*Form starts here------------------------------------------*/
+
+label{
+    color: #FC626B;
+}
+
+input{
+    width: 98%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid #FC626B;
+    background: none;
+    margin-bottom: 20px;
+    color: #FC626B; 
+    font-size: 0.8em;
+    padding-left: 1%;
+}
+
+textarea{
+    width: 96%;
+    background: none;
+    border: 1px solid #FC626B;
+    margin-top: 10px;
+    color: #FC626B;
+    font-size: 0.8em;
+    padding: 2%;
+    resize: none;
+}
+
+input[type=submit]{
+    background-color: #FC626B;
+    width: 30%;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: #b8ecfd;
+}
+
+input:focus {
+    background-color: #FC626B;
+    color: #b8ecfd;
+}
+
+/*Gallery starts here------------------------------------------*/
+
+.tiles{
+    width: 100%;
+/*    background-color: #FC626B;*/
+    height: 21vh;
+    margin-top: 20px;
+    position: relative;
+}
+
+.titles, .print{
+    background: url("../images/print.jpg") padding-box no-repeat center; 
+    background-size: cover;
+}
+
+.titles, .web{
+    background: url("../images/web.jpg") padding-box no-repeat top; 
+    background-size: cover;
+}
+
+.titles, .illustration{
+    background: #FC626B url("../images/illustrations.png") padding-box no-repeat center; 
+    background-size: 320px;
+}
+
+.titles, .pack{
+    background: #FC626B url("../images/packaging.jpg") padding-box no-repeat bottom; 
+    background-size: 350px;
+}
+
+.col-l{
+    width: 49%;
+    float: left;
+    padding-right: 1%;
+}
+
+.col-r{
+    width: 49%;
+    float: right;
+    padding-left: 1%;
+}
+
+.tiles h3{
+    text-align: center;
+    display: block;
+    background-color: #FC626B;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.tiles h3 a{
+    color: #b8ecfd; 
+    text-decoration: none;
+}
+
+
+/*Footer starts here------------------------------------------*/
+
+footer{
+    width: 100%;
+    background-color: #FC626B;
+    position: absolute;
+    bottom: 0px;
+    height: 70px;
+    border-top: 5px solid #e0adb9;
+}
+
+footer p{
+    color: #b8ecfd;
+    font-size: 0.8em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
