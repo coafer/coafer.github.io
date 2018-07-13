@@ -1,5 +1,7 @@
 # Basic-Portfolio
-Portfolio for homework week 1
 
-This is an exercise to work mainly in CSS and HTML
+Portfolio for Adrian Fernandez
+
+This is developer and UI/UX portfolio
+
 # coafer.github.io
